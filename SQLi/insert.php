@@ -10,8 +10,6 @@
 
 <?php
 
-
-
 include "../connect.php";
 if(isset($_POST['username']) && isset($_POST['password'])){
     $query = "insert into accounts (username, password) values ('".$_POST['username']."', '".$_POST['password']."')";
